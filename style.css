@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  margin: 0% 10%;
+}
+h1 {
+  font-size: 50px;
+}
+.hero-hedding {
+  margin-left: 10px;
+}
+.heding-tag {
+  color: yellowgreen;
+  margin-left: 10px;
+}
+.section-one {
+  display: flex;
+  align-items: center;
+}
+.half-width {
+  position: relative;
+  width: 50%;
+  margin-left: 5px;
+}
+.half-width img {
+  margin-left: 5%;
+  width: 100%;
+}
+
+#div {
+  height: 115px;
+  width: 7px;
+  background: linear-gradient(yellow, gray, green);
+  border-radius: 2px;
+  position: absolute;
+  margin-top: 20px;
+}
+.btn {
+  padding: 7px 12px;
+  background-color: green;
+  border-radius: 5px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+.journy {
+  text-align: center;
+  color: green;
+}
+.section-two {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.journy-card {
+  background: gray;
+  padding: 10px;
+  margin-right: 20px;
+  width: 33.33%;
+  border-radius: 10px;
+}
+.journy-card img {
+  width: 200px;
+}
+.section-three {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+}
+.coding {
+  width: 30%;
+}
+.skill {
+  width: 70%;
+  margin-left: 10%;
+}
+.section-four {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+.community {
+  width: 70%;
+  margin-right: 10%;
+}
+.about-me img {
+  border-radius: 5px;
+  background-color: rgb(131, 158, 131);
+  border: 2px solid gray;
+  padding: 10px;
+  margin: 10px;
+  width: 31%;
+}
+.about-me img:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
+#footer {
+  padding: 20px;
+  background-color: black;
+  text-align: center;
+}
+#footer-heding {
+  font-style: i;
+  color: lightcoral;
+}
+.hard-work {
+  color: white;
+}
