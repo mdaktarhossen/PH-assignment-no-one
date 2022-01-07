@@ -55,6 +55,7 @@ h1 {
   text-align: center;
   color: green;
 }
+/* section two */
 .section-two {
   display: flex;
   justify-content: space-between;
@@ -70,6 +71,7 @@ h1 {
 .journy-card img {
   width: 200px;
 }
+/* section three */
 .section-three {
   display: flex;
   align-items: center;
@@ -82,6 +84,7 @@ h1 {
   width: 70%;
   margin-left: 10%;
 }
+/* section four */
 .section-four {
   margin-top: 50px;
   display: flex;
@@ -91,16 +94,31 @@ h1 {
   width: 70%;
   margin-right: 10%;
 }
-.about-me img {
-  border-radius: 5px;
-  background-color: rgb(131, 158, 131);
-  border: 2px solid gray;
+/* about me section */
+.about-me {
   padding: 10px;
-  margin: 10px;
-  width: 31%;
+  background-color: gray;
+  border-radius: 10px;
 }
-.about-me img:hover {
-  box-shadow: 5px 5px 5px gray;
+#certifiction {
+  display: flex;
+  justify-content: space-between;
+}
+#certifiction img {
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/* hire me section */
+.hire-me {
+  font-style: italic;
+  padding: 20px;
+  text-align: center;
+}
+#hire {
+  border-bottom: 3px solid green;
+  display: inline;
 }
 
 #footer {
@@ -112,6 +130,6 @@ h1 {
   font-style: i;
   color: lightcoral;
 }
-.hard-work {
+#hard-work {
   color: white;
 }
